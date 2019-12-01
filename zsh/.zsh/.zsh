@@ -1,1 +1,0 @@
-/Users/hcevns/.dotfiles/zsh/.zsh
