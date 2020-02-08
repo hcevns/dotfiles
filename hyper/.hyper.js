@@ -1,6 +1,8 @@
 // https://hyper.is#cfg
 
 module.exports = {
-  config: {},
-  plugins: ['hyper-snazzy'],
-}
+  config: {
+    fontFamily: '"JetBrains Mono", monospace'
+  },
+  plugins: ["hyper-snazzy"]
+};
