@@ -2,8 +2,7 @@
 
 # Add submodules (e.g. zsh plugins)
 
-git submodule init
-git submodule update
+(cd ~/.dotfiles && git submodule init && git submodule update)
 
 # Remove existing config files
 
