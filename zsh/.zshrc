@@ -8,4 +8,5 @@ promptinit
 
 prompt pure
 
+source "$HOME/.zsh/plugins/autosuggestions/zsh-autosuggestions.zsh"
 source "$HOME/.zsh/plugins/syntax-highlighting/zsh-syntax-highlighting.zsh"
