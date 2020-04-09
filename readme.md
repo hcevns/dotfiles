@@ -3,7 +3,7 @@
 ## Setup
 
 ```
+# install zsh?
 git clone --recurse-submodules git@github.com:hcevns/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-./init.sh
+~/.dotfiles/init.sh
 ```
