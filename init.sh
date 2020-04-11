@@ -6,6 +6,7 @@
 
 # Remove existing config files
 
+rm ~/.editorconfig
 rm ~/.gitconfig
 rm ~/.gitignore
 rm ~/.hyper.js
@@ -14,6 +15,7 @@ rm ~/.zshrc
 
 # Symlink dotfiles
 
+ln -s ~/.dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/git/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/hyper/.hyper.js ~/.hyper.js
