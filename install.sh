@@ -7,6 +7,7 @@
 rm ~/.editorconfig
 rm ~/.gitconfig
 rm ~/.gitignore
+rm ~/.prettierrc
 rm -rf ~/.zsh
 rm ~/.zshrc
 
@@ -14,5 +15,6 @@ rm ~/.zshrc
 ln -s ~/.dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/git/.gitignore ~/.gitignore
+ln -s ~/.dotfiles/.prettierrc ~/.prettierrc
 ln -s ~/.dotfiles/zsh/.zsh ~/.zsh
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
