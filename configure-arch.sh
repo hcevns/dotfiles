@@ -23,3 +23,17 @@ pacman -S \
   vlc \
   xsv \
   youtube-dl
+
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+yay -S \
+  bitwarden \
+  google-chrome-dev \
+  insomnia \
+  notion-app \
+  teams \
+  visual-studio-code-insiders \
+  vmware-horizon-client \
+  zoom
