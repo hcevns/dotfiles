@@ -8,12 +8,15 @@
 
 brew install \
   bat \
+  elixir \
   fd \
   fish \
   git \
+  go \
   httpie \
-  mas \
-  n \
+  kotlin \
+  # mas \
+  r \
   ripgrep \
   rustup \
   sk \
@@ -24,12 +27,17 @@ brew install \
 brew cask install \
   bitwarden \
   dotnet-sdk \
+  firefox \
   firefox-developer-edition \
   font-jetbrains-mono \
   google-chrome-dev \
+  insomnia \
+  julia \
+  karabiner-elements \
   microsoft-edge-dev \
   microsoft-office \
   microsoft-teams \
+  notion \
   obs \
   rectangle \
   safari-technology-preview \
@@ -53,15 +61,11 @@ defaults write com.apple.dock show-recents -bool false
 
 DockItems=(
   "/Applications/Microsoft Edge Dev.app"
-  "/Applications/Microsoft Teams.app"
-  "/Applications/Microsoft To Do.app"
-  "/Applications/Microsoft OneNote.app"
-  "/Applications/VMware Horizon Client.app"
+  "/Applications/Notion.app"
   "/Applications/Visual Studio Code - Insiders.app"
+  "/Applications/Microsoft Teams.app"
+  "/Applications/VMware Horizon Client.app"
   "/System/Applications/Utilities/Terminal.app"
-  "/System/Applications/Notes.app"
-  "/Applications/Firefox Developer Edition.app"
-  "/Applications/Google Chrome.app"
 )
 
 defaults write com.apple.dock persistent-apps -array
