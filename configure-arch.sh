@@ -3,14 +3,23 @@ pacman -Syyu
 pacman -S \
   bat \
   dotnet-sdk \
+  elixir \
   fd \
+  firefox \
+  firefox-developer-edition \
   fish \
   git \
+  go \
   httpie \
-  mas \
+  julia \
+  kotlin \
+  obs-studio \
+  r \
   ripgrep \
   rustup \
-  sk \
+  skim \
   tldr \
+  ttf-jetbrains-mono \
+  vlc \
   xsv \
   youtube-dl
