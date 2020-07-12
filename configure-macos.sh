@@ -27,6 +27,7 @@ brew install \
 brew cask install \
   bitwarden \
   dotnet-sdk \
+  figma \
   firefox \
   firefox-developer-edition \
   font-jetbrains-mono \
