@@ -38,7 +38,6 @@ brew cask install \
   microsoft-edge-dev \
   microsoft-office \
   microsoft-teams \
-  notion \
   obs \
   rectangle \
   safari-technology-preview \
