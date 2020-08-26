@@ -46,15 +46,6 @@ brew cask install \
   vmware-horizon-client \
   zoomus
 
-# Configure git
-
-echo -n "Email:"
-read email
-git config --global user.email "$email"
-echo -n "Name:"
-read name
-git config --global user.name "$name"
-
 # Configure preferences
 
 # Dock
