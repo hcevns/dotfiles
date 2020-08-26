@@ -68,7 +68,6 @@ defaults write com.apple.dock show-recents -bool false
 
 DockItems=(
   "/Applications/Microsoft Edge Dev.app"
-  "/Applications/Notion.app"
   "/Applications/Visual Studio Code - Insiders.app"
   "/Applications/Microsoft Teams.app"
   "/Applications/VMware Horizon Client.app"

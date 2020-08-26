@@ -32,7 +32,6 @@ yay -S \
   bitwarden \
   google-chrome-dev \
   insomnia \
-  notion-app \
   teams \
   visual-studio-code-insiders \
   vmware-horizon-client \
