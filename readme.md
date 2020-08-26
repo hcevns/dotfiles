@@ -3,6 +3,6 @@
 ## Setup
 
 ```
-git clone --recurse-submodules git@github.com:hcevns/dotfiles.git ~/.dotfiles
+git clone git@github.com:hcevns/dotfiles.git ~/.dotfiles
 sh ~/.dotfiles/install.sh
 ```
