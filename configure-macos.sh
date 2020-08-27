@@ -20,7 +20,6 @@ brew install \
   go \
   httpie \
   kotlin \
-  # mas \
   r \
   ripgrep \
   rustup \
