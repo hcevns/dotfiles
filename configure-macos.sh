@@ -109,5 +109,5 @@ defaults write com.apple.sound.uiaudio.enabled -bool false
 # Trackpad
 
 defaults write -g ContextMenuGesture -int 1
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+defaults write com.apple.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
