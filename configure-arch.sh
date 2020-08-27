@@ -4,6 +4,7 @@ pacman -S \
   bat \
   dotnet-sdk \
   elixir \
+  exa \
   fd \
   firefox \
   firefox-developer-edition \

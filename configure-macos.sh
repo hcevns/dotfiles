@@ -11,6 +11,7 @@ brew tap homebrew/cask-versions
 brew install \
   bat \
   elixir \
+  exa \
   fd \
   fish \
   git \
