@@ -40,6 +40,7 @@ brew cask install \
   insomnia \
   julia \
   karabiner-elements \
+  logitech-options \
   microsoft-edge-dev \
   microsoft-office \
   microsoft-teams \
