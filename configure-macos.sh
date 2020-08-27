@@ -4,6 +4,8 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 
 # Install applications
