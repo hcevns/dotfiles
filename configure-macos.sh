@@ -53,6 +53,8 @@ brew cask install \
 
 # Configure preferences
 
+chsh -s /usr/local/bin/fish
+
 # Dock
 
 defaults write com.apple.dock tilesize -int 44
