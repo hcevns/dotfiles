@@ -94,6 +94,8 @@ defaults write -g com.apple.mouse.tapBehavior -int 1
 
 defaults write com.apple.menuextra.battery ShowPercent YES
 defaults write com.apple.menuextra.clock DateFormat -string "HH:mm"
+defaults write com.apple.TextInputMenuAgent "NSStatusItem Visible Item-0" -bool false
+defaults write com.apple.TextInputMenu visible -bool false
 
 # Screen capture
 
