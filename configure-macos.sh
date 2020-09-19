@@ -57,14 +57,16 @@ brew cask install \
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
+# Configure preferences
+
 # Dock
 
-defaults write com.apple.dock tilesize -int 44
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock launchanim -bool false
 defaults write com.apple.dock mineffect -string "scale"
 defaults write com.apple.dock minimize-to-application -bool true
-defaults write com.apple.dock launchanim -bool false
-defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock show-recents -bool false
+defaults write com.apple.dock tilesize -int 44
 
 DockItems=(
   "/Applications/Microsoft Edge Dev.app"
@@ -88,16 +90,32 @@ defaults write com.apple.finder QuitMenuItem -bool true
 
 # Keyboard
 
-defaults write -g KeyRepeat -int 1
-defaults write -g InitialKeyRepeat -int 10
 defaults write -g com.apple.mouse.tapBehavior -int 1
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 2
 
 # Menu bar
 
 defaults write com.apple.menuextra.battery ShowPercent YES
 defaults write com.apple.menuextra.clock DateFormat -string "HH:mm"
 defaults write com.apple.TextInputMenuAgent "NSStatusItem Visible Item-0" -bool false
-defaults write com.apple.TextInputMenu visible -bool false
+defaults write com.apple.TextInputMenu Visible -bool false
+
+# "com.apple.systemuiserver" =     {
+#     "NSStatusItem Visible Siri" = 0;
+#     "NSStatusItem Visible com.apple.menuextra.airport" = 1;
+#     "NSStatusItem Visible com.apple.menuextra.battery" = 1;
+#     "NSStatusItem Visible com.apple.menuextra.bluetooth" = 1;
+#     "NSStatusItem Visible com.apple.menuextra.clock" = 1;
+#     "__NSEnableTSMDocumentWindowLevel" = 1;
+#     "last-analytics-stamp" = "620123329.146971";
+#     menuExtras =         (
+#         "/System/Library/CoreServices/Menu Extras/Clock.menu",
+#         "/System/Library/CoreServices/Menu Extras/Battery.menu",
+#         "/System/Library/CoreServices/Menu Extras/AirPort.menu",
+#         "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+#     );
+# };
 
 # Screen capture
 
@@ -108,8 +126,39 @@ defaults write com.apple.screencapture location ~/Documents
 defaults write com.apple.sound.beep.volume -float 0.5 
 defaults write com.apple.sound.uiaudio.enabled -bool false
 
+# Spotlight
+
+# "com.apple.lookup.shared" =     {
+#     LookupSuggestionsDisabled = 1;
+# };
+
+# Touchbar
+
+# "com.apple.touchbar.agent" =     {
+#     PresentationModeGlobal = fullControlStrip;
+# };
+
 # Trackpad
 
 defaults write -g ContextMenuGesture -int 1
 defaults write com.apple.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write com.apple.AppleBluetoothMultitouch.trackpad FirstClickThreshold -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad SecondClickThreshold -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadFiveFingerPinchGesture -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadFourFingerHorizSwipeGesture -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadFourFingerPinchGesture -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerTapGesture -bool false
+defaults write com.apple.AppleBluetoothMultitouch.trackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -bool false
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -bool false
+defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFiveFingerPinchGesture -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerHorizSwipeGesture -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerPinchGesture -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGesture -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerTapGesture -bool false
+defaults write com.apple.AppleMultitouchTrackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -bool false
+default write com.apple.trackpad.forceClick -bool false
