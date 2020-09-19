@@ -52,8 +52,9 @@ brew cask install \
   vmware-horizon-client \
   zoomus
 
-# Configure preferences
+# Configure shell
 
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
 # Dock
