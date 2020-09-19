@@ -46,6 +46,7 @@ brew cask install \
   obs \
   rectangle \
   safari-technology-preview \
+  steam \
   visual-studio-code-insiders \
   vlc \
   vmware-horizon-client \

@@ -19,6 +19,7 @@ pacman -S \
   ripgrep \
   rustup \
   skim \
+  steam \
   tldr \
   ttf-jetbrains-mono \
   vlc \
