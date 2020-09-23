@@ -19,6 +19,7 @@ pacman -S \
   ripgrep \
   rustup \
   skim \
+  sqlitebrowser \
   steam \
   tldr \
   ttf-jetbrains-mono \

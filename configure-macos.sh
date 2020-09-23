@@ -30,6 +30,7 @@ brew install \
 
 brew cask install \
   bitwarden \
+  db-browser-for-sqlite \
   dotnet-sdk \
   figma \
   firefox \
