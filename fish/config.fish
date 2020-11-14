@@ -1,6 +1,6 @@
 . ~/.config/fish/aliases.fish
 
 if not functions -q fisher
-  curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-  fish -c fisher
+  curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher
+  fisher update
 end
