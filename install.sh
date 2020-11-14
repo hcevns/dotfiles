@@ -15,7 +15,7 @@ ln -s ~/.dotfiles/.bashrc ~/.bashrc
 mkdir -p ~/.config/fish
 ln -s ~/.dotfiles/fish/aliases.fish ~/.config/fish/aliases.fish
 ln -s ~/.dotfiles/fish/config.fish ~/.config/fish/config.fish
-ln -s ~/.dotfiles/fish/fishfile ~/.config/fish/fishfile
+ln -s ~/.dotfiles/fish/fish_plugins ~/.config/fish/fish_plugins
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
 mkdir -p ~/.config/karabiner
