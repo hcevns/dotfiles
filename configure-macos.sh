@@ -101,24 +101,6 @@ defaults write -g KeyRepeat -int 2
 
 defaults write com.apple.menuextra.battery ShowPercent YES
 defaults write com.apple.menuextra.clock DateFormat -string "HH:mm"
-defaults write com.apple.TextInputMenuAgent "NSStatusItem Visible Item-0" -bool false
-defaults write com.apple.TextInputMenu Visible -bool false
-
-# "com.apple.systemuiserver" =     {
-#     "NSStatusItem Visible Siri" = 0;
-#     "NSStatusItem Visible com.apple.menuextra.airport" = 1;
-#     "NSStatusItem Visible com.apple.menuextra.battery" = 1;
-#     "NSStatusItem Visible com.apple.menuextra.bluetooth" = 1;
-#     "NSStatusItem Visible com.apple.menuextra.clock" = 1;
-#     "__NSEnableTSMDocumentWindowLevel" = 1;
-#     "last-analytics-stamp" = "620123329.146971";
-#     menuExtras =         (
-#         "/System/Library/CoreServices/Menu Extras/Clock.menu",
-#         "/System/Library/CoreServices/Menu Extras/Battery.menu",
-#         "/System/Library/CoreServices/Menu Extras/AirPort.menu",
-#         "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
-#     );
-# };
 
 # Screen capture
 
