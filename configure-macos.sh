@@ -164,4 +164,4 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool f
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGesture -bool false
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerTapGesture -bool false
 defaults write com.apple.AppleMultitouchTrackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -bool false
-default write com.apple.trackpad.forceClick -bool false
+defaults write com.apple.trackpad.forceClick -bool false
