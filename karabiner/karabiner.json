@@ -1,16 +1,66 @@
 {
+  "global": {
+    "show_in_menu_bar": false
+  },
   "profiles": [
     {
-      "simple_modifications": [
-        {
-          "from": {
-            "key_code": "caps_lock"
+      "complex_modifications": {
+        "title": "Microsoft Remote Desktop",
+        "rules": [
+          {
+            "description": "Caps Lock -> Keypad + (SITS)",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "bundle_identifiers": [
+                      "^com\\.microsoft\\.rdc\\.macos$",
+                      "^com\\.vmware\\.horizon$"
+                    ],
+                    "type": "frontmost_application_if"
+                  }
+                ],
+                "from": {
+                  "key_code": "caps_lock"
+                },
+                "to": {
+                  "key_code": "keypad_plus"
+                },
+                "type": "basic"
+              }
+            ]
           },
-          "to": {
-            "key_code": "keypad_plus"
+          {
+            "description": "Cmd-R -> Ctrl-R",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "bundle_identifiers": [
+                      "^com\\.microsoft\\.rdc\\.macos$",
+                      "^com\\.vmware\\.horizon$"
+                    ],
+                    "type": "frontmost_application_if"
+                  }
+                ],
+                "from": {
+                  "key_code": "r",
+                  "modifiers": {
+                    "mandatory": ["command"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "r",
+                    "modifiers": ["control"]
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
           }
-        }
-      ]
+        ]
+      }
     }
   ]
 }
