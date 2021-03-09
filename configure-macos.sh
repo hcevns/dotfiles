@@ -14,46 +14,44 @@ brew tap homebrew/cask-versions
 
 brew install \
   bat \
-  elixir \
-  exa \
-  fd \
-  fish \
-  git \
-  go \
-  httpie \
-  kotlin \
-  r \
-  ripgrep \
-  rustup \
-  sk \
-  tldr \
-  xsv \
-  youtube-dl
-
-brew cask install \
   bitwarden \
   db-browser-for-sqlite \
   dotnet-sdk \
-  figma \
+  elixir \
+  exa \
+  fd \
   firefox \
   firefox-developer-edition \
+  fish \
   font-jetbrains-mono \
+  git \
+  go \
   google-chrome-dev \
+  httpie \
   insomnia \
   julia \
   karabiner-elements \
+  kotlin \
   logitech-options \
   microsoft-edge-dev \
   microsoft-office \
   microsoft-teams \
   obs \
+  r \
   rectangle \
+  ripgrep \
+  rustup \
   safari-technology-preview \
+  sk \
   steam \
+  tldr \
+  vb-cable \
   visual-studio-code-insiders \
   vlc \
   vmware-horizon-client \
-  zoomus
+  xsv \
+  youtube-dl \
+  zoom
 
 # Configure shell
 
