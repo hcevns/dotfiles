@@ -34,6 +34,7 @@ brew install \
   kotlin \
   logitech-options \
   microsoft-edge-dev \
+  mas \
   microsoft-office \
   microsoft-teams \
   obs \
@@ -52,6 +53,10 @@ brew install \
   xsv \
   youtube-dl \
   zoom
+
+mas install \
+  1274495053 # Microsoft To Do
+  1295203466 # Microsoft Remote Desktop
 
 # Configure shell
 
