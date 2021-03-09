@@ -114,18 +114,6 @@ defaults write com.apple.screencapture location ~/Documents
 defaults write com.apple.sound.beep.volume -float 0.5 
 defaults write com.apple.sound.uiaudio.enabled -bool false
 
-# Spotlight
-
-# "com.apple.lookup.shared" =     {
-#     LookupSuggestionsDisabled = 1;
-# };
-
-# Touchbar
-
-# "com.apple.touchbar.agent" =     {
-#     PresentationModeGlobal = fullControlStrip;
-# };
-
 # Trackpad
 
 defaults write -g ContextMenuGesture -int 1
