@@ -79,7 +79,8 @@ DockItems=(
   "/Applications/Visual Studio Code - Insiders.app"
   "~/Applications/Edge Dev App.localized/Microsoft Outlook.app"
   "/Applications/Microsoft Teams.app"
-  "/Applications/VMware Horizon Client.app"
+  "/Applications/Microsoft To Do.app"
+  "/Applications/Microsoft Remote Desktop.app"
   "/System/Applications/Utilities/Terminal.app"
 )
 
