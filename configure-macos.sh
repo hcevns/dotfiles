@@ -21,19 +21,17 @@ brew install \
   exa \
   fd \
   firefox \
-  firefox-developer-edition \
   fish \
   font-jetbrains-mono \
   git \
   go \
-  google-chrome-dev \
   httpie \
   insomnia \
   julia \
   karabiner-elements \
   kotlin \
   logitech-options \
-  microsoft-edge-dev \
+  microsoft-edge \
   mas \
   microsoft-office \
   microsoft-teams \
@@ -42,7 +40,6 @@ brew install \
   rectangle \
   ripgrep \
   rustup \
-  safari-technology-preview \
   sk \
   steam \
   tldr \
@@ -75,9 +72,9 @@ defaults write com.apple.dock show-recents -bool false
 defaults write com.apple.dock tilesize -int 44
 
 DockItems=(
-  "/Applications/Microsoft Edge Dev.app"
-  "/Applications/Visual Studio Code - Insiders.app"
-  "~/Applications/Edge Dev App.localized/Microsoft Outlook.app"
+  "/Applications/Microsoft Edge.app"
+  "/Applications/Visual Studio Code.app"
+  "~/Applications/Edge App.localized/Microsoft Outlook.app"
   "/Applications/Microsoft Teams.app"
   "/Applications/Microsoft To Do.app"
   "/Applications/Microsoft Remote Desktop.app"
