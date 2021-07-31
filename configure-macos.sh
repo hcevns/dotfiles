@@ -42,9 +42,8 @@ brew install \
   rustup \
   sk \
   steam \
-  tldr \
-  vb-cable \
-  visual-studio-code-insiders \
+  tealdeer \
+  visual-studio-code \
   vlc \
   vmware-horizon-client \
   xsv \
