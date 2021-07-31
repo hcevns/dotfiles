@@ -61,6 +61,8 @@ mas install \
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
+fish_add_path ~/.cargo/bin
+
 # Configure preferences
 
 # Dock
