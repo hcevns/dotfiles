@@ -8,7 +8,7 @@
         "title": "Microsoft Remote Desktop",
         "rules": [
           {
-            "description": "Caps Lock -> Keypad + (SITS)",
+            "description": "§ -> Keypad + (SITS)",
             "manipulators": [
               {
                 "conditions": [
@@ -21,7 +21,7 @@
                   }
                 ],
                 "from": {
-                  "key_code": "caps_lock"
+                  "key_code": "non_us_backslash"
                 },
                 "to": {
                   "key_code": "keypad_plus"
