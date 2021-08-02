@@ -36,6 +36,7 @@ brew install \
   microsoft-office \
   microsoft-teams \
   obs \
+  obsidian \
   r \
   rectangle \
   ripgrep \
@@ -80,6 +81,7 @@ DockItems=(
   "/Applications/Microsoft Teams.app"
   "/Applications/Microsoft To Do.app"
   "/Applications/Microsoft Remote Desktop.app"
+  "/Applications/Obsidian.app"
   "/System/Applications/Utilities/Terminal.app"
 )
 
