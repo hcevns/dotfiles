@@ -15,6 +15,7 @@ pacman -S \
   julia \
   kotlin \
   obs-studio \
+  pandoc \
   r \
   ripgrep \
   rustup \

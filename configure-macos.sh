@@ -37,6 +37,7 @@ brew install \
   microsoft-teams \
   obs \
   obsidian \
+  pandoc \
   r \
   rectangle \
   ripgrep \
