@@ -25,8 +25,7 @@ pacman -S \
   tldr \
   ttf-jetbrains-mono \
   vlc \
-  xsv \
-  youtube-dl
+  xsv
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -39,4 +38,5 @@ yay -S \
   teams \
   visual-studio-code-insiders \
   vmware-horizon-client \
+  youtube-dlp \
   zoom

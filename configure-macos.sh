@@ -49,7 +49,7 @@ brew install \
   vlc \
   vmware-horizon-client \
   xsv \
-  youtube-dl \
+  yt-dlp \
   zoom
 
 mas install \
