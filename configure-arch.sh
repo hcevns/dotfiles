@@ -2,6 +2,7 @@ pacman -Syyu
 
 pacman -S \
   bat \
+  bitwarden \
   dotnet-sdk \
   elixir \
   exa \
@@ -32,7 +33,6 @@ cd yay
 makepkg -si
 
 yay -S \
-  bitwarden \
   google-chrome-dev \
   insomnia \
   teams \
