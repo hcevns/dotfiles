@@ -55,6 +55,7 @@ brew install \
 mas install \
   1274495053 # Microsoft To Do
   1295203466 # Microsoft Remote Desktop
+  1526042938 # Tomito
   497799835 # XCode
 
 # Configure shell
