@@ -16,6 +16,7 @@ brew install \
   bat \
   bitwarden \
   db-browser-for-sqlite \
+  displaylink \
   dotnet-sdk \
   elixir \
   exa \
