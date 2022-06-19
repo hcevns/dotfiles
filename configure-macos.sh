@@ -66,6 +66,10 @@ chsh -s /usr/local/bin/fish
 
 fish_add_path ~/.cargo/bin
 
+# Configure applications
+
+nvm install latest
+
 # Configure preferences
 
 # Dock
