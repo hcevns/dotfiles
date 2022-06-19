@@ -4,6 +4,10 @@
 [init]
   defaultBranch = main
 
+[pull]
+  ff = only
+  rebase = true
+
 [user]
-  name = Harry Evans
   email = hcevns@gmail.com
+  name = Harry Evans
