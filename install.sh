@@ -2,12 +2,12 @@
 
 # Remove existing config files
 
-rm ~/.bashrc
+rm -f ~/.bashrc
 rm -rf ~/.config/fish
-rm ~/.gitconfig
-rm ~/.gitignore_global
+rm -f ~/.gitconfig
+rm -f ~/.gitignore_global
 rm -rf ~/.config/karabiner
-rm ~/.zshrc
+rm -f ~/.zshrc
 
 # Symlink dotfiles
 
