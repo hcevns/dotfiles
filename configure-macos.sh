@@ -111,8 +111,12 @@ defaults write -g KeyRepeat -int 2
 
 # Menu bar
 
-defaults write com.apple.menuextra.battery ShowPercent YES
-defaults write com.apple.menuextra.clock DateFormat -string "HH:mm"
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible NowPlaying" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible WiFi" -bool false
+defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM HH:mm"
+defaults write com.apple.spotlight "NSStatusItem Visible Item-0" -bool false
 
 # Screen capture
 
