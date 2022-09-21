@@ -15,9 +15,9 @@ brew tap homebrew/cask-versions
 brew install \
   bat \
   bitwarden \
-  db-browser-for-sqlite \
   displaylink \
   dotnet-sdk \
+  duckdb \
   elixir \
   exa \
   fd \
@@ -33,11 +33,11 @@ brew install \
   kotlin \
   logitech-options \
   microsoft-edge \
+  minimal-racket \
   mas \
   microsoft-office \
   microsoft-teams \
   obs \
-  obsidian \
   pandoc \
   r \
   rectangle \
@@ -48,15 +48,14 @@ brew install \
   tealdeer \
   visual-studio-code \
   vlc \
-  vmware-horizon-client \
   xsv \
   yt-dlp \
   zoom
 
 mas install \
-  1274495053 # Microsoft To Do
-  1295203466 # Microsoft Remote Desktop
-  1526042938 # Tomito
+  1274495053 \ # Microsoft To Do
+  1295203466 \ # Microsoft Remote Desktop
+  1526042938 \ # Tomito
   497799835 # XCode
 
 # Configure shell
