@@ -7,6 +7,9 @@
 [pull]
   rebase = true
 
+[rebase]
+  autoStash = true
+
 [user]
   email = hcevns@gmail.com
   name = Harry Evans
