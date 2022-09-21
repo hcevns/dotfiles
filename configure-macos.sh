@@ -58,6 +58,8 @@ mas install \
   1526042938 \ # Tomito
   497799835 # XCode
 
+xcodebuild -license accept
+
 # Configure shell
 
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
