@@ -101,6 +101,7 @@ done
 # Finder
 
 defaults write com.apple.finder CreateDesktop -bool false
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf" # Search current folder by default
 defaults write com.apple.finder QuitMenuItem -bool true
 
 # Keyboard
