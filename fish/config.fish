@@ -1,6 +1,7 @@
 . ~/.config/fish/aliases.fish
 
-if not functions -q fisher
-  curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher
-  fisher update
+set -g fish_greeting # remove greeting
+
+if status is-interactive && not functions -q fisher
+  curl -sL git.io/fisher | source && fisher update
 end
