@@ -123,13 +123,14 @@ defaults write com.apple.screencapture location ~/Documents
 
 # Sound
 
+defaults write -g com.apple.sound.uiaudio.enabled -int 0
 defaults write com.apple.sound.beep.volume -float 0.5 
-defaults write com.apple.sound.uiaudio.enabled -bool false
 
 # Trackpad
 
-defaults write -g ContextMenuGesture -int 1
 defaults write -g AppleEnableSwipeNavigateWithScrolls -int 0
+defaults write -g com.apple.trackpad.forceClick -int 0
+defaults write -g ContextMenuGesture -int 1
 defaults write com.apple.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults write com.apple.AppleBluetoothMultitouch.trackpad FirstClickThreshold -bool false
 defaults write com.apple.AppleBluetoothMultitouch.trackpad SecondClickThreshold -bool false
@@ -150,4 +151,3 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool f
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGesture -bool false
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerTapGesture -bool false
 defaults write com.apple.AppleMultitouchTrackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -bool false
-defaults write com.apple.trackpad.forceClick -bool false
