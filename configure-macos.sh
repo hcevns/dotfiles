@@ -77,13 +77,7 @@ defaults write com.apple.dock tilesize -int 44
 DockItems=(
   "/Applications/Microsoft Edge.app"
   "/Applications/Notion.app"
-  "/Applications/Music.app"
   "/Applications/Visual Studio Code.app"
-  "~/Applications/Edge App.localized/Microsoft Outlook.app"
-  "/Applications/Microsoft Teams.app"
-  "~/Applications/Edge App.localized/Microsoft Planner.app"
-  "/Applications/Microsoft To Do.app"
-  "/Applications/Microsoft Remote Desktop.app"
   "/System/Applications/Utilities/Terminal.app"
 )
 
