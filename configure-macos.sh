@@ -37,6 +37,7 @@ brew install \
   mas \
   microsoft-office \
   microsoft-teams \
+  notion \
   obs \
   pandoc \
   r \
@@ -80,6 +81,7 @@ defaults write com.apple.dock tilesize -int 44
 
 DockItems=(
   "/Applications/Microsoft Edge.app"
+  "/Applications/Notion.app"
   "/Applications/Music.app"
   "/Applications/Visual Studio Code.app"
   "~/Applications/Edge App.localized/Microsoft Outlook.app"
