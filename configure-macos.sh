@@ -47,8 +47,7 @@ brew install \
   visual-studio-code \
   vlc \
   xsv \
-  yt-dlp \
-  zoom
+  yt-dlp
 
 mas install \
   1526042938 \ # Tomito
