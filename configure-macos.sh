@@ -61,6 +61,7 @@ echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 fish -c 'fish_add_path ~/.cargo/bin'
 fish -c 'nvm install latest'
+fish -c 'set --universal nvm_default_version latest'
 
 # Configure preferences
 
