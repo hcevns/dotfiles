@@ -17,6 +17,7 @@ pacman -S \
   nodejs \
   obs-studio \
   pandoc \
+  pnpm \
   r \
   racket-minimal \
   ripgrep \
