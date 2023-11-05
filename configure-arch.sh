@@ -14,9 +14,11 @@ pacman -S \
   httpie \
   julia \
   kotlin \
+  nodejs \
   obs-studio \
   pandoc \
   r \
+  racket-minimal \
   ripgrep \
   rustup \
   skim \
@@ -32,10 +34,8 @@ cd yay
 makepkg -si
 
 yay -S \
-  google-chrome-dev \
-  insomnia \
-  teams \
-  visual-studio-code-insiders \
-  vmware-horizon-client \
-  youtube-dlp \
-  zoom
+  duckdb-bin \
+  microsoft-edge-stable-bin \
+  notion-app \
+  visual-studio-code-bin \
+  youtube-dlp
