@@ -8,7 +8,6 @@ pacman -S \
   exa \
   fd \
   firefox \
-  firefox-developer-edition \
   fish \
   git \
   go \
