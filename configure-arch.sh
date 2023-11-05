@@ -23,7 +23,6 @@ pacman -S \
   rustup \
   skim \
   sqlitebrowser \
-  steam \
   tldr \
   ttf-jetbrains-mono \
   vlc \

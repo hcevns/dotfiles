@@ -41,7 +41,6 @@ brew install \
   ripgrep \
   rustup \
   sk \
-  steam \
   tealdeer \
   visual-studio-code \
   vlc \
