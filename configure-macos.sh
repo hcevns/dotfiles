@@ -33,6 +33,7 @@ brew install \
   microsoft-edge \
   minimal-racket \
   mas \
+  node \
   notion \
   obs \
   pandoc \
