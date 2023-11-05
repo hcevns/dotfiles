@@ -26,7 +26,6 @@ brew install \
   git \
   go \
   httpie \
-  insomnia \
   julia \
   karabiner-elements \
   kotlin \
