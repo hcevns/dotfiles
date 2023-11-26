@@ -15,7 +15,7 @@ brew install \
   bat \
   duckdb \
   elixir \
-  exa \
+  eza \
   fd \
   fish \
   git \

@@ -5,7 +5,7 @@ pacman -S \
   bitwarden \
   dotnet-sdk \
   elixir \
-  exa \
+  eza \
   fd \
   firefox \
   fish \
