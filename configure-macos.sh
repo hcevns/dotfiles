@@ -14,40 +14,42 @@ brew tap homebrew/cask-versions
 
 brew install \
   bat \
-  bitwarden \
-  dotnet-sdk \
   duckdb \
   elixir \
   exa \
   fd \
-  firefox \
   fish \
-  font-jetbrains-mono \
   git \
   go \
   httpie \
   julia \
-  karabiner-elements \
   kotlin \
-  logitech-options \
-  microsoft-edge \
-  minimal-racket \
   mas \
   node \
-  notion \
-  obs \
   pandoc \
   pnpm \
   r \
-  rectangle \
   ripgrep \
   rustup \
   sk \
   tealdeer \
-  visual-studio-code \
-  vlc \
   xsv \
   yt-dlp
+
+brew --cask \
+  bitwarden \
+  dotnet-sdk \
+  firefox \
+  font-jetbrains-mono \
+  karabiner-elements \
+  logitech-options \
+  microsoft-edge \
+  notion \
+  obs \
+  racket \
+  rectangle \
+  visual-studio-code \
+  vlc \
 
 mas install \
   497799835 # XCode
